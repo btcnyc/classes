@@ -1,0 +1,35 @@
+name: "🎨 Design feedback"
+description: Report design bugs, layout issues, or request visual improvements.
+title: "[Design] <Brief summary>"
+labels: ["design"]
+body:
+  - type: input
+    id: area
+    attributes:
+      label: Page or component
+      placeholder: "e.g., Landing page hero, Navigation menu, Topic cards"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: What's happening?
+      description: Describe the design issue, how it impacts users, and where it appears.
+      placeholder: "Buttons overlap on mobile, preventing users from accessing links."
+    validations:
+      required: true
+
+  - type: textarea
+    id: assets
+    attributes:
+      label: Screenshots or links
+      description: Drop in screenshots, Figma frames, or URLs that show the issue.
+      placeholder: "Attach a screenshot or paste a link to the affected page."
+
+  - type: textarea
+    id: desired
+    attributes:
+      label: Desired outcome
+      description: Share what the fix should look or feel like.
+      placeholder: "Buttons should stack vertically with 16px spacing on mobile."
