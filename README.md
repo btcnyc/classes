@@ -128,6 +128,7 @@ Browse the live site for all lessons at:
 * [Telegram](https://t.me/+M79B-75J2YU3OTRh)
 * [X (Twitter)](https://x.com/BTCNetworkNYC)
 * [Nostr](https://njump.me/npub1xyu3s3zt3v44l3rj5gn90xk33n387sgtjepcvxnqvd5rt58fpzzsx0055n)
+* [LinkedIn](https://www.linkedin.com/company/the-bitcoin-network-nyc/)
 
 ---
 
