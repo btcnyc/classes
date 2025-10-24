@@ -15,12 +15,20 @@ theme:
     - content.code.copy
     - toc.follow
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: orange
       accent: orange
-    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: orange
       accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   logo: shared-assets/logos/btcnyc_logo.png
   favicon: shared-assets/logos/btcnyc_favicon.png
 
