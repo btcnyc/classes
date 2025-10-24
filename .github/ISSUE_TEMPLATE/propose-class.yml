@@ -1,7 +1,7 @@
 name: "💡 Propose a new class"
 description: Suggest a new workshop or lesson for BTC NYC.
 title: "[Class Proposal] <Class title>"
-labels: ["proposal"]
+labels: ["💡 proposal"]
 body:
   - type: input
     id: title
