@@ -29,9 +29,9 @@ nav:
   - Topics:
       - "Run a Bitcoin Node (Jan 15, 2025)": topics/bitcoin-node/2025-01-15-getting-started/lesson.md
       - "Lightning Basics (Feb 12, 2025)": topics/lightning/2025-02-12-intro-to-lightning/lesson.md
-  - Guides:
-      - Hardware Wallets: guides/hardware-wallets.md
-      - Event Checklist: guides/event-checklist.md
+  # - Guides:
+      # - Hardware Wallets: guides/hardware-wallets.md
+      # - Event Checklist: guides/event-checklist.md
 
 markdown_extensions:
   - admonition
