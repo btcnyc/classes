@@ -24,7 +24,7 @@ Each class includes slides, step-by-step guides, and instructor notes — all in
 ## 📂 Repository Structure
 
 ```plaintext
-classes/
+topics/
   bitcoin-node/
     2025-01-15-getting-started/
       lesson.md
@@ -40,9 +40,51 @@ shared-assets/
   diagrams/
 ```
 
-* **`classes/`** — Each folder = a topic. Inside are dated subfolders for each session.
+* **`topics/`** — Each folder = a topic. Inside are dated subfolders for each session.
 * **`guides/`** — Reusable docs (wallet setup, event prep, etc).
 * **`shared-assets/`** — Images and diagrams used across multiple classes.
+
+---
+
+## 🧑‍💻 Developer Setup
+
+Developers can run the documentation site locally using [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
+
+### 🧱 Requirements
+
+* Python 3.8+
+* pip
+* (optional) a virtual environment such as `venv`
+
+### 🪜 Steps
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/btcnyc/classes.git
+cd classes
+
+# 2. Install dependencies
+pip install mkdocs mkdocs-material
+
+# 3. Run the local dev server
+mkdocs serve
+# open http://127.0.0.1:8000
+
+# 4. Build the static site (optional)
+mkdocs build
+```
+
+> MkDocs automatically reloads on file save — no restarts needed.
+
+### ⚙️ Deployment
+
+The site is deployed automatically to GitHub Pages on every push to `main` using the workflow in `.github/workflows/pages.yml`.
+
+Manual deploy:
+
+```bash
+gh workflow run build-and-deploy-pages
+```
 
 ---
 

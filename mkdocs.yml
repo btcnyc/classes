@@ -1,0 +1,40 @@
+site_name: BTC NYC Classes
+site_url: https://btcnyc.github.io/classes/
+site_description: Bitcoin Network NYC — class materials, guides, and workshop resources.
+repo_url: https://github.com/btcnyc/classes
+repo_name: btcnyc/classes
+edit_uri: edit/main/docs/
+
+use_directory_urls: true
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.footer
+    - content.code.copy
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: orange
+      accent: orange
+    - scheme: slate
+      primary: orange
+      accent: orange
+  logo: shared-assets/logos/btcnyc_logo.png
+  favicon: shared-assets/logos/btcnyc_favicon.png
+
+nav:
+  - Home: README.md
+  - Topics:
+      - "Run a Bitcoin Node (Jan 15, 2025)": topics/bitcoin-node/2025-01-15-getting-started/lesson.md
+      - "Lightning Basics (Feb 12, 2025)": topics/lightning/2025-02-12-intro-to-lightning/lesson.md
+  - Guides:
+      - Hardware Wallets: guides/hardware-wallets.md
+      - Event Checklist: guides/event-checklist.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
