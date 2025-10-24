@@ -1,0 +1,34 @@
+name: "💡 Propose a new class"
+description: Suggest a new workshop or lesson for BTC NYC.
+title: "[Class Proposal] <Class title>"
+labels: ["proposal"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Class title
+      placeholder: "e.g., Intro to Lightning, Run a Node, Multisig Basics"
+    validations:
+      required: true
+
+  - type: textarea
+    id: outline
+    attributes:
+      label: Outline / Objectives
+      description: What will this class teach? What are the main learning goals?
+      placeholder: "- Understand Lightning basics\n- Set up a mobile wallet\n- Make a payment"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logistics
+    attributes:
+      label: Logistics
+      description: Duration, target level, location, prerequisites, etc.
+      placeholder: "90 minutes · Beginner · Laptop required"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional notes or collaborators
+      placeholder: "Optional: instructors, reference links, or materials"

@@ -1,0 +1,26 @@
+name: "🪄 Quick fix (typo / broken link / small edit)"
+description: Request a small correction to existing content.
+title: "[Fix] <Brief summary>"
+labels: ["fix"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: File or page
+      placeholder: "e.g., classes/bitcoin-node/2025-01-15-getting-started/lesson.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: What needs fixing?
+      placeholder: "Typo in prerequisites section, 'etherent' → 'ethernet'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction
+      placeholder: "Replace 'etherent' with 'ethernet'."
