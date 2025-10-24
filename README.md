@@ -112,10 +112,10 @@ You don’t need to be a developer — just some Markdown familiarity or willing
 
 ---
 
-## 🌐 Website (Coming Soon)
+## 🌐 Website
 
-We’re publishing these materials as a clean docs site using [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
-You’ll soon be able to browse all lessons at:
+We publish these materials as a clean docs site using [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
+Browse the live site for all lessons at:
 
 👉 **[https://btcnyc.github.io/classes/](https://btcnyc.github.io/classes/)**
 
