@@ -55,8 +55,8 @@ To adapt or reuse:
 
 ## 🔗 Related Resources
 
-* [Guides](../guides/) — reusable resources (wallet setup, event checklist)
-* [Shared Assets](../shared-assets/) — images, logos, and diagrams
+<!-- * [Guides](../guides/) — reusable resources (wallet setup, event checklist) -->
+<!-- * [Shared Assets](../shared-assets/) — images, logos, and diagrams -->
 
 ---
 
