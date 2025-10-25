@@ -38,7 +38,6 @@ shared-assets/
 ```
 
 * **`topics/`** — Each folder = a topic. Inside are ordered subfolders (00-, 01-, …) for each lesson.
-* **`guides/`** — Reusable docs (wallet setup, event prep, etc).
 * **`shared-assets/`** — Images and diagrams used across multiple classes.
 
 ---
