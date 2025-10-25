@@ -42,9 +42,6 @@ nav:
           # - Using Your Node: topics/bitcoin-node/01-using-your-node/lesson.md
       - Lightning:
           - Lightning Basics: topics/lightning/00-intro-to-lightning/lesson.md
-  # - Guides:
-      # - Hardware Wallets: guides/hardware-wallets.md
-      # - Event Checklist: guides/event-checklist.md
 
 markdown_extensions:
   - admonition
