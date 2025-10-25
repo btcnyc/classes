@@ -34,10 +34,6 @@ theme:
 
 nav:
   - Home: README.md
-  - Contributing:
-    - Overview: contributing/index.md
-    - Markdown Basics: contributing/00-markdown-basics/lesson.md
-    # - Writing Great Lessons: contributing/01-writing-great-lessons/lesson.md
   - Topics:
       - Overview: topics/README.md
       - Bitcoin Node:
@@ -46,6 +42,10 @@ nav:
       - Lightning:
           - Lightning Basics: topics/lightning/00-intro-to-lightning/lesson.md
   - Resources: resources/index.md
+  - Contributing:
+    - Overview: contributing/index.md
+    - Markdown Basics: contributing/00-markdown-basics/lesson.md
+    # - Writing Great Lessons: contributing/01-writing-great-lessons/lesson.md
 
 markdown_extensions:
   - admonition
