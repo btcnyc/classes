@@ -37,5 +37,5 @@ Welcome! This is our collective stash of trusted learning tools curated by the B
 
 ---
 Have a favorite resource we missed?  
-Open a [GitHub issue](../..//issues/new/choose) or share it in our [Telegram group](https://t.me/+M79B-75J2YU3OTRh).  
+Open a [GitHub issue](https://github.com/btcnyc/classes/issues) or share it in our [Telegram group](https://t.me/+M79B-75J2YU3OTRh).  
 We’ll review and add great suggestions!

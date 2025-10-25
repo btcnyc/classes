@@ -32,9 +32,6 @@ topics/
   lightning/
     00-intro-to-lightning/
       lesson.md
-guides/
-  hardware-wallets.md
-  event-checklist.md
 shared-assets/
   logos/
   diagrams/
