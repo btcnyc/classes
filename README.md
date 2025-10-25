@@ -26,11 +26,11 @@ Each class includes slides, step-by-step guides, and instructor notes — all in
 ```plaintext
 topics/
   bitcoin-node/
-    2025-01-15-getting-started/
+    00-getting-started/
       lesson.md
       slides.pdf
   lightning/
-    2025-02-12-intro-to-lightning/
+    00-intro-to-lightning/
       lesson.md
 guides/
   hardware-wallets.md
@@ -40,7 +40,7 @@ shared-assets/
   diagrams/
 ```
 
-* **`topics/`** — Each folder = a topic. Inside are dated subfolders for each session.
+* **`topics/`** — Each folder = a topic. Inside are ordered subfolders (00-, 01-, …) for each lesson.
 * **`guides/`** — Reusable docs (wallet setup, event prep, etc).
 * **`shared-assets/`** — Images and diagrams used across multiple classes.
 
@@ -109,6 +109,8 @@ You don’t need to be a developer — just some Markdown familiarity or willing
 
 * Open an issue → choose **“Quick fix”**.
 * Or just open a PR with the correction.
+
+👉 See the full [Contributing Guide](docs/CONTRIBUTING.md) for creating new lessons and editing content.
 
 ---
 

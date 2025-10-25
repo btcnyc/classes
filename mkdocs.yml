@@ -34,9 +34,14 @@ theme:
 
 nav:
   - Home: README.md
+  - Contributing: CONTRIBUTING.md
   - Topics:
-      - "Run a Bitcoin Node (Jan 15, 2025)": topics/bitcoin-node/2025-01-15-getting-started/lesson.md
-      - "Lightning Basics (Feb 12, 2025)": topics/lightning/2025-02-12-intro-to-lightning/lesson.md
+      - Overview: topics/README.md
+      - Bitcoin Node:
+          - Getting Started: topics/bitcoin-node/00-getting-started/lesson.md
+          # - Using Your Node: topics/bitcoin-node/01-using-your-node/lesson.md
+      - Lightning:
+          - Lightning Basics: topics/lightning/00-intro-to-lightning/lesson.md
   # - Guides:
       # - Hardware Wallets: guides/hardware-wallets.md
       # - Event Checklist: guides/event-checklist.md

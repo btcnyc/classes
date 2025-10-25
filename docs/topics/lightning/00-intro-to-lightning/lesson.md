@@ -1,4 +1,11 @@
-# ⚡ Lightning Basics — Feb 12, 2025
+---
+title: Lightning Basics
+last_updated: 2025-02-12
+difficulty: beginner
+duration: 90m
+---
+
+# ⚡ Lightning Basics
 
 **Duration:** 90m • **Level:** Beginner  
 **Prereqs:** Working Bitcoin node, mobile wallet (Phoenix, Zeus, or Breez)

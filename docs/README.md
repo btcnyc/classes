@@ -4,7 +4,7 @@ Welcome to the **Bitcoin Network NYC Class Library** —
 a collection of workshops, lessons, and demos built for the NYC Bitcoin community.
 
 Each folder inside `topics/` represents a **class series or theme**,
-with dated subfolders for specific sessions.
+with ordered subfolders (00-, 01-, …) that control lesson sequencing.
 
 ---
 
@@ -13,18 +13,21 @@ with dated subfolders for specific sessions.
 ```plaintext
 topics/
   bitcoin-node/
-    2025-01-15-getting-started/
+    00-getting-started/
       lesson.md
       slides.pdf
   lightning/
-    2025-02-12-intro-to-lightning/
+    00-intro-to-lightning/
       lesson.md
+guides/
+  hardware-wallets.md
+  event-checklist.md
 ```
 
 ### 🧩 Naming Convention
 
 * **Folder name** → topic slug (e.g., `bitcoin-node`, `lightning`)
-* **Subfolder name** → date and short descriptor (`YYYY-MM-DD-title`)
+* **Subfolder name** → zero-padded order index and short descriptor (`NN-title`)
 * **Inside each session**:
 
   * `lesson.md` — step-by-step guide
@@ -46,8 +49,8 @@ To adapt or reuse:
 
 ## 💡 Create a New Class
 
-1. Duplicate any existing session folder (e.g. `bitcoin-node/2025-01-15-getting-started/`)
-2. Rename it with your new date + short title.
+1. Duplicate any existing session folder (e.g. `bitcoin-node/00-getting-started/`)
+2. Rename it with the next numeric prefix + short title (`01-using-your-node/`, etc.).
 3. Edit the `lesson.md` with your content.
 4. Update `mkdocs.yml` to add it under `nav:` (so it shows up on the site).
 
