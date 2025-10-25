@@ -1,0 +1,26 @@
+{% extends "main.html" %}
+
+{% block title %}404 - Lost in the Stacks{% endblock %}
+
+{% block content %}
+  {% set base = base_url.rstrip('/') %}
+  {% set home_href = (base if base else '.') + '/' %}
+  {% set topics_href = (base if base else '.') + '/topics/' %}
+  {% set image_src = (base if base else '.') + '/shared-assets/bitcoin_hungry.svg' %}
+  <section class="md-typeset">
+    <h1 style="font-size: 3rem; margin-bottom: 0;">404 — Page Not Found</h1>
+    <p>
+      <img src="{{ image_src }}" alt="bitcoin chasing misplaced sats" loading="lazy" style="max-width: 320px; width: 100%; height: auto;">
+    </p>
+    <p class="md-caption" style="color: var(--md-default-fg-color--light);">Illustration courtesy of <a href="https://www.herecomesbitcoin.org" target="_blank" rel="noopener">Here Comes Bitcoin</a>.</p>
+    <p>Bitcoin has scoured every satoshi-sized nook of the site, but this page is nowhere to be found.</p>
+    <h2>What you can do</h2>
+    <ul>
+      <li><a href="{{ home_href }}">Head back to the home page</a> and start fresh.</li>
+      <li>Browse the <a href="{{ topics_href }}">Topics overview</a> for classes and resources.</li>
+      <li>If you followed a broken link, <a href="https://github.com/btcnyc/classes/issues" target="_blank" rel="noopener">open an issue on GitHub</a> so we can fix it.</li>
+    </ul>
+    <hr>
+    <p>🧡 Hold Bitcoin. Share knowledge. Feed Bitcoin with new links.</p>
+  </section>
+{% endblock %}

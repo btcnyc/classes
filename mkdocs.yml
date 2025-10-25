@@ -9,6 +9,7 @@ use_directory_urls: true
 
 theme:
   name: material
+  custom_dir: docs/overrides
   features:
     - navigation.indexes
     - navigation.footer
@@ -37,7 +38,9 @@ nav:
   - Topics:
       - Overview: topics/index.md
       - Bitcoin Node:
-          - Getting Started: topics/bitcoin-node/00-getting-started/lesson.md
+          - Getting Started:
+              - Event Page: topics/bitcoin-node/00-getting-started/index.md
+              - Lesson Plan: topics/bitcoin-node/00-getting-started/lesson.md
           # - Using Your Node: topics/bitcoin-node/01-using-your-node/lesson.md
       - Lightning:
           - Lightning Basics: topics/lightning/00-intro-to-lightning/lesson.md

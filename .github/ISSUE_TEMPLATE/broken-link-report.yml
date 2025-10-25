@@ -1,0 +1,42 @@
+name: 🔗 Broken Link Report
+description: Spot a dead or misdirected link? Let us know so we can fix it fast.
+title: "[Broken Link] "
+labels:
+  - bug
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the docs healthy! Share the details below so we can triage quickly.
+  - type: input
+    id: url
+    attributes:
+      label: URL you clicked
+      description: Paste the full URL that returned 404 / misdirected.
+      placeholder: https://btcnyc.github.io/classes/...
+    validations:
+      required: true
+  - type: textarea
+    id: from_page
+    attributes:
+      label: Where did you find the link?
+      description: Provide the page, section, or context where the link lives.
+      placeholder: e.g. Topics > Bitcoin Node > Getting Started
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How disruptive is it?
+      options:
+        - Low (minor annoyance)
+        - Medium (blocks part of the flow)
+        - High (blocks the whole lesson)
+      default: 1
+  - type: textarea
+    id: context
+    attributes:
+      label: Any other notes?
+      description: Screenshots, expectations, or other clues.
+*** End Patch

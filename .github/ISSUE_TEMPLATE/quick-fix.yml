@@ -1,7 +1,7 @@
 name: "🪄 Quick fix (typo / broken link / small edit)"
 description: Request a small correction to existing content.
 title: "[Fix] <Brief summary>"
-labels: ["🪄 fix"]
+labels: ["bug"]
 body:
   - type: input
     id: page

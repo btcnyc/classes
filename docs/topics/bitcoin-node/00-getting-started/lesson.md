@@ -5,6 +5,9 @@ difficulty: beginner
 duration: 90m
 ---
 
+> 📅 **Looking for date/time/location?**  
+> See the current [Event Page](./index.md)
+
 # Run a Bitcoin Node (Umbrel/Start9)
 
 **Duration:** 90m • **Level:** Beginner  
@@ -26,3 +29,8 @@ duration: 90m
 ## Homework
 - Finish IBD
 - Open port 8333 and verify peers
+
+---
+
+> 📅 **Looking for date/time/location?**  
+> See the current [Event Page](./index.md)
