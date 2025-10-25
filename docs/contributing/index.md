@@ -1,5 +1,7 @@
 # Contributing to BTC NYC Classes
 
+If you’re looking to teach, see the [Teachers Lounge](../teachers-lounge/index.md).
+
 Thanks for helping grow the Bitcoin Network NYC curriculum! This guide outlines how to add or improve lessons in the `docs/` directory that powers our MkDocs site.
 
 ---

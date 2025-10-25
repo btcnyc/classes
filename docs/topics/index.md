@@ -45,6 +45,12 @@ See our [Contributing Guide](../contributing/index.md) for full details.
 
 ---
 
+## 🧑‍🏫 Teaching These Topics?
+
+If you’re preparing to lead a BTC NYC class, the **[Teachers Lounge](../teachers-lounge/index.md)** has runbooks, checklists, and templates to guide every step of your session.
+
+---
+
 <p align="center">
   <i>Learn. Build. Connect. Empower.</i><br/>
   <small>Bitcoin Network NYC • Community Education</small>

@@ -35,12 +35,18 @@ theme:
 nav:
   - Home: README.md
   - Topics:
-      - Overview: topics/README.md
+      - Overview: topics/index.md
       - Bitcoin Node:
           - Getting Started: topics/bitcoin-node/00-getting-started/lesson.md
           # - Using Your Node: topics/bitcoin-node/01-using-your-node/lesson.md
       - Lightning:
           - Lightning Basics: topics/lightning/00-intro-to-lightning/lesson.md
+  - Teachers Lounge:
+      - Overview: teachers-lounge/index.md
+      - Run a Class (Runbook): teachers-lounge/run-a-class.md
+      - Event One-Pager Template: teachers-lounge/event-template.md
+      - Checklists: teachers-lounge/checklist.md
+      - Boilerplate Generator: teachers-lounge/boilerplate-prompt.md
   - Resources: resources/index.md
   - Contributing:
     - Overview: contributing/index.md
