@@ -71,7 +71,7 @@ We’ll review and merge PRs after ensuring content quality and site consistency
 ## Need help?
 
 * Join the [Telegram group](https://t.me/+M79B-75J2YU3OTRh) for contributor discussions.
-* Or open an issue directly in the repo if something’s unclear.
+* Or [open an issue](https://github.com/btcnyc/classes/issues) directly in the repo if something’s unclear.
 
 <p align="center">
   <i>Thanks for helping build the Bitcoin education movement in NYC 🗽⚡</i>
