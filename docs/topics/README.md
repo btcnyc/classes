@@ -41,7 +41,7 @@ If you’d like to improve an existing lesson:
 * Add new sub-lessons to expand a topic — e.g., `bitcoin-node/01-node-security/`.
 * Or open a **Quick Fix** issue for small changes.
 
-See our [Contributing Guide](../CONTRIBUTING.md) for full details.
+See our [Contributing Guide](../contributing/index.md) for full details.
 
 ---
 

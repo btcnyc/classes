@@ -18,8 +18,8 @@ Here you’ll find the same content we teach in those sessions — freely availa
 
 ## 🧭 Explore
 
-* 📚 [Browse Topics](topics/) — Learn about running nodes, Lightning, self-custody, and more.
-* 🤝 [Contribute](CONTRIBUTING.md) — Help improve or create new classes.
+* 📚 [Browse Topics](topics/README.md) — Learn about running nodes, Lightning, self-custody, and more.
+* 🤝 [Contribute](contributing/index.md) — Help improve or create new classes.
 
 ---
 

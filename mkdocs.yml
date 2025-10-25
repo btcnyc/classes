@@ -34,7 +34,10 @@ theme:
 
 nav:
   - Home: README.md
-  - Contributing: CONTRIBUTING.md
+  - Contributing:
+    - Overview: contributing/index.md
+    - Markdown Basics: contributing/00-markdown-basics/lesson.md
+    # - Writing Great Lessons: contributing/01-writing-great-lessons/lesson.md
   - Topics:
       - Overview: topics/README.md
       - Bitcoin Node:
