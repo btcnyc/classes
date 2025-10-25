@@ -45,6 +45,7 @@ nav:
           # - Using Your Node: topics/bitcoin-node/01-using-your-node/lesson.md
       - Lightning:
           - Lightning Basics: topics/lightning/00-intro-to-lightning/lesson.md
+  - Resources: resources/index.md
 
 markdown_extensions:
   - admonition

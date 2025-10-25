@@ -21,6 +21,12 @@ Here you’ll find the same content we teach in those sessions — freely availa
 * 📚 [Browse Topics](topics/README.md) — Learn about running nodes, Lightning, self-custody, and more.
 * 🤝 [Contribute](contributing/index.md) — Help improve or create new classes.
 
+## 📚 Learn More
+
+Explore curated books, videos, podcasts, and articles recommended by the BTC NYC community:
+
+👉 [Visit the Resources page](resources/index.md)
+
 ---
 
 <p align="center">
