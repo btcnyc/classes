@@ -1,0 +1,63 @@
+name: "📚 Suggest a Resource"
+description: "Propose a new book, video, course, or article to be added to our Bitcoin education resources."
+title: "[Resource Suggestion] "
+labels:
+  - content
+  - question
+body:
+  - type: input
+    id: resource_title
+    attributes:
+      label: "📚 Resource Title"
+      description: "Short name of the resource."
+      placeholder: "The Bitcoin Standard"
+    validations:
+      required: true
+  - type: dropdown
+    id: resource_type
+    attributes:
+      label: "✨ Type of Resource"
+      description: "Pick the format that best fits."
+      options:
+        - Book
+        - Documentary
+        - YouTube Channel
+        - Podcast
+        - Article/Blog
+        - Course/Tutorial
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: resource_link
+    attributes:
+      label: "🔗 Official Link"
+      description: "Direct URL to the official source (no affiliate or mirrored links)."
+      placeholder: "https://example.com/official-resource"
+    validations:
+      required: true
+  - type: textarea
+    id: resource_description
+    attributes:
+      label: "✨ Why It Matters"
+      description: "Share 1–3 sentences on why this resource is valuable or relevant."
+      placeholder: "Covers the history of Bitcoin and how sound money empowers individuals."
+    validations:
+      required: true
+  - type: textarea
+    id: btc_nyc_relevance
+    attributes:
+      label: "🏙️ Relevance to BTC NYC"
+      description: "Optional: Note why this fits our community (e.g., great for beginners, focuses on privacy, NYC creator)."
+      placeholder: "Good fit for beginners looking to understand self-custody basics."
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "✅ Submission Checklist"
+      options:
+        - label: "I confirmed the link is official (no affiliate links)."
+          required: true
+        - label: "I verified this resource isn't already listed in docs/resources/index.md."
+          required: true
+        - label: "I’m okay with my contribution being licensed under MIT."
+          required: true
