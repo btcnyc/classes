@@ -24,21 +24,42 @@ Each class includes slides, step-by-step guides, and instructor notes — all in
 ## 📂 Repository Structure
 
 ```plaintext
-topics/
-  bitcoin-node/
-    00-getting-started/
-      lesson.md
-      slides.pdf
-  lightning/
-    00-intro-to-lightning/
-      lesson.md
-shared-assets/
-  logos/
-  diagrams/
+.
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   └── workflows/
+├── assets/
+│   └── btcnyc_logo.jpeg
+├── docs/
+│   ├── README.md
+│   ├── contributing/
+│   │   ├── index.md
+│   │   └── 00-markdown-basics/
+│   │       └── lesson.md
+│   ├── resources/
+│   │   └── index.md
+│   ├── shared-assets/
+│   └── topics/
+│       ├── README.md
+│       ├── bitcoin-node/
+│       │   └── 00-getting-started/
+│       │       └── lesson.md
+│       └── lightning/
+│           └── 00-intro-to-lightning/
+│               └── lesson.md
+├── mkdocs.yml
+├── LICENSE
+├── README.md
+└── site/
 ```
 
-* **`topics/`** — Each folder = a topic. Inside are ordered subfolders (00-, 01-, …) for each lesson.
-* **`shared-assets/`** — Images and diagrams used across multiple classes.
+* **`docs/topics/`** — Lesson content grouped by topic, each with numbered subfolders for individual classes.
+* **`docs/contributing/`** — Guides and workshop material for contributors.
+* **`docs/resources/`** — Curated references and follow-up material.
+* **`docs/shared-assets/`** — Images and other media reused across multiple lessons.
+* **`assets/`** — Branding assets referenced from the README and docs site.
+* **`.github/`** — Issue templates and automation workflows.
+* **`site/`** — MkDocs build output served on GitHub Pages (regenerate with `mkdocs build`).
 
 ---
 
