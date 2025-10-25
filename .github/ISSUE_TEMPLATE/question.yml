@@ -1,0 +1,39 @@
+name: "❓ Ask a course question"
+description: Get help with material published on BTC NYC Classes.
+title: "[Question] <Short summary>"
+labels: ["question"]
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Which subject is this about?
+      description: Pick the lesson or area this question relates to.
+      options:
+        - "General course question"
+        - "Bitcoin Node: Getting Started"
+        - "Lightning: Lightning Basics"
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+      description: Include the section, step, or concept you're unsure about.
+      placeholder: "While following Step 3 in the Lightning Basics lesson, I got stuck opening a channel..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What have you tried?
+      description: Share steps you've taken, commands you ran, or what you expected to happen.
+      placeholder: "I tried restarting my node and double-checked the config..."
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Links or screenshots
+      description: Drop in relevant URLs, screenshots, or snippets that show the issue.
+      placeholder: "Link to the exact doc section, error output, or external resources."
