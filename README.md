@@ -1,4 +1,8 @@
-# 🎓 BTC NYC Classes
+<p align="center">
+  <img src="assets/btcnyc_logo.png" alt="Bitcoin Network NYC logo" width="200" />
+</p>
+
+<h1 align="center">🎓 BTC NYC Classes</h1>
 
 **Bitcoin Network NYC — Community Education Repository**
 
@@ -171,9 +175,6 @@ You’re free to fork, remix, and share — just credit **Bitcoin Network NYC**.
 
 ---
 
-<p align="center">
-  <img src="assets/btcnyc_logo.png" alt="BTC NYC Logo" width="100" style="border-radius:50%;"/>
-</p>
 <p align="center">
   <i>Learn. Build. Connect. Empower.</i>
 </p>
