@@ -19,7 +19,7 @@ duration: 120m
 **Outcomes:** By the end, students will:
 
 * Recognize the security model of DIY hardware wallets versus commercial devices.
-* Assemble a microcontroller-based signing device with a secure element.
+* Assemble a microcontroller-based signing device.
 * Flash open-source firmware and verify the build checksum.
 * Sign and broadcast a mainnet transaction using their new device.
 
@@ -27,7 +27,11 @@ duration: 120m
 
 ## Abstract
 
-Create a high-level summary for instructors describing how the class progresses, the key takeaways, and the philosophy behind building your own signing device.
+This 2-hour workshop teaches beginners to build a functional Bitcoin hardware wallet by flashing open-source Jade firmware onto a $15 LilyGO T-Display board. Students transform generic development hardware into a signing device comparable to commercial wallets costing $150, learning security fundamentals through hands-on experience rather than theory alone.
+
+### Philosophy
+
+Building your own signing device isn't just about saving money—it's about understanding the technology protecting your Bitcoin. This workshop embraces "security through understanding" over black-box trust. By sourcing components, flashing open-source firmware, and generating entropy themselves, students reduce supply chain risk while learning to evaluate security claims critically. The goal is informed autonomy: students should understand both the power and limitations of their DIY device compared to hardened commercial alternatives.
 
 ---
 
