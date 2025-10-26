@@ -11,7 +11,7 @@ Each folder here represents a **core Bitcoin topic** taught in our NYC workshops
 
 Learn how to run your own node and take control of your Bitcoin experience.
 
-* [00 – Getting Started](bitcoin-node/00-getting-started/lesson.md): Install and configure a Bitcoin node using platforms like Umbrel or Start9.
+* [Getting Started](bitcoin-node/00-getting-started/lesson.md): Install and configure a Bitcoin node using platforms like Umbrel or Start9.
 
 *(More topics coming soon — privacy, multisig, mining, and sovereignty!)*
 
