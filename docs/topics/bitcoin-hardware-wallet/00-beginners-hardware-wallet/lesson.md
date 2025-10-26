@@ -109,6 +109,24 @@ The hard way, on the other hand, involves manually using command-line tools to f
 
 Each method has its tradeoffs: the easy way sacrifices some degree of trust and understanding for speed and convenience, whereas the hard way requires more time and technical skill but rewards you with flexibility and a stronger grasp of the underlying technology. Instructors should encourage students to choose the path that best aligns with their comfort level and curiosity, fostering both confidence and exploration.
 
+## The Easy Way
+
+The easiest way to flash a ESP32
+
+1. Go to the official Blockstream Github: [https://github.com/Blockstream/jadediyflasher](https://github.com/Blockstream/jadediyflasher)  
+   ![Blockstream Github](../assets/blockstream_github.jpeg)
+
+2. You can download the source file and run the website locally, but GitHub already hosts it at [https://blockstream.github.io/jadediyflasher/](https://blockstream.github.io/jadediyflasher/). GitHub serves the HTML, CSS, JavaScript, etc. directly to your browser so you can flash the device without installing developer tools.  
+   ![Blockstream Jade DIY Flasher](../assets/blockstream_jade_diy_flasher.jpeg)
+
+3. Open the dropdown menu (it likely defaults to `M5Stack Core2`) and select your development board — for this class, pick `LILYGO T-Display`.  
+   ![DIY Dropdown Menu](../assets/diy_dropdown_menu.jpeg)
+
+4. When you click flash this is going to appear. In order to know which device is the LILYGO, unplug the lilygo and plug it back in. The com port that the lilygo will appear and disappear. Click the COM port that the Jade is plugged into
+   ![Connect to a serial port](../assets/connect_to_a_serial_port.jpeg)
+
+5. That's it a progress bar should show up and when it's finish your ready to set it up
+
 ## Lab Setup (10 min)
 
 Outline the space, safety notes (soldering, electrostatic discharge), and how to stage kits before students arrive.
