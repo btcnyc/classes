@@ -53,7 +53,9 @@ With self-custody you remove trust from the equation. No one can freeze your fun
 Bitcoin was created to solve the problem of the manipulation of trust and money, an opt out of our current system, but the exit only works if you take the keys. This is why self-custody is so important. 
 
 ### What is a Wallet?
-The term wallet is a bit of a misnomer and therefore can be confusing. Yes it's true that a bitcoin wallet, like a physical wallet, stores value, but the main difference is that bitcoin wallets don't actually store any bitcoin. Bitcoin only exists as a ledger entry on the public blockchain, or within the metaphorical vaults in cyberspace. Bitcoin wallets only store private keys, so a better name for them would actually be keychains. The private keys are what is used to sign transactions and spend bitcoin. When you sign a transaction with your wallet, you show proof that you own the money and have the right to spend those coins. 
+The term wallet is a bit of a misnomer and therefore can be confusing. Yes it's true that a bitcoin wallet, like a physical wallet, stores value. But the main difference is that bitcoin wallets don't actually store any bitcoin. 
+Bitcoin only exists as a ledger entry on the public blockchain, or within the metaphorical vaults in cyberspace. Remember to move bitcoin you have to use your keys to unlock the vault and move the coins somewhere else, the private keys are what is used spend bitcoin. When you make a transaction with your wallet, you're really just using your keys to sign the transaction. This is how you show proof that you own the money and have the right to spend those coins. 
+Bitcoin wallets really just store your private keys, so it would be more accurate to call them keychains. 
 
 ### Hot vs Cold Wallets
 A hot wallet is a software app on your phone or computer. It’s connected to the internet, so it’s easier to use and quicker to sign transactions, but this also means it's more exposed to hackers, malware, and phishing. It's called "hot" because it's connected to the internet, is plugged in and powered on. An example would be a phone wallet or a browser wallet. 
