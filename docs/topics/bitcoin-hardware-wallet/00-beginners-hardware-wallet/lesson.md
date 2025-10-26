@@ -228,12 +228,12 @@ Before you can see your balance or broadcast transactions, Sparrow needs to conn
   - Click **Test Connection** to verify
 
 - **Bitcoin Core or Knots Node (Most private, most work):** Run your own full Bitcoin node. This is the gold standard for privacy and verification, as you're validating every transaction yourself and not trusting anyone else's server. However, it requires downloading the entire blockchain (~600GB) and keeping your node synced.
-  - Install and sync Bitcoin Core
+  - Install and sync Bitcoin Core or Knots
   - In Sparrow, go to **Tools → Preferences → Server**
-  - Select **Bitcoin Core** and enter your node's connection details
+  - Select **Bitcoin Core or Knots** and enter your node's connection details
 
-- **Private Electrum Server (Good balance):** Host your own Electrum server (like Fulcrum or Electrs) connected to your Bitcoin Core node. Offers full privacy without needing to run Sparrow on the same machine as your node.
-  - Set up an Electrum server pointing to your Bitcoin Core node
+- **Private Electrum Server (Good balance):** Host your own Electrum server (like Fulcrum or Electrs) connected to your Bitcoin Core or Knots node. Offers full privacy without needing to run Sparrow on the same machine as your node.
+  - Set up an Electrum server pointing to your Bitcoin Core or Knots node
   - In Sparrow, go to **Tools → Preferences → Server**
   - Select **Private Electrum** and enter your server's URL
 
