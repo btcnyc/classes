@@ -38,8 +38,23 @@ Building your own signing device isn't just about saving money—it's about unde
 ## Concept Primer (15 min)
 
 ### What is Self-Custody and Why Does it Matter?
+Bitcoin was created to remove the need for trusted third parties, like banks and corporations, from our money system. Instead of using trust, bitcoin uses math, physics, and cryptography to allow anyone the power to own and control their money without needing anyone’s permission.
+
+The way this works is that bitcoin exists on a global digital ledger called the blockchain aka the bitcoin timechain, which is a public and transparent ledger run by computers, instead of a centralized ledger like a bank account. 
+
+The important thing to understand is that in order to move bitcoin from one place to another, you have to sign that transaction with what's called a private key. Think of it like unlocking a vault with a password, and moving the bitcoin to someone else's vault. In this way, the keys to the vault are the money itself. Bitcoin gives you the power to hold the keys to that vault yourself, instead of relying on a bank to move your money for you. This is where the phrase "not your keys, not your coins" comes from.
+
+Self-custody means holding your own private keys, and controlling your own bitcoin. If you don’t hold that key, you’re trusting someone else to hold it for you. If your bitcoin is in an ETF or on an exchange (Mt. Gox, FTX, Coinbase, Binance, etc.), you don’t own bitcoin, you own a claim to bitcoin. This introduces all kinds of risks, like exchanges getting hacked and losing your bitcoin or companies lending out your money and giving you only a fraction in reserve. Additionally trusted third parties would have full control of your money and could limit or freeze withdrawals. 
+
+<img width="400" height="550" alt="image" src="https://github.com/user-attachments/assets/3c52f49e-0c49-4937-bac7-b6c91238e822" />
+
+With self-custody you remove trust from the equation. No one can freeze your funds or deny a transaction, you can send money across borders, to anyone, at any time, and you don’t need a bank account, an ID, or anyone’s approval. No one can stop you, censor you, or steal from you, unlocking the full power of bitcoin as freedom money. This is why we say, with bitcoin you can be your own bank. 
+
+Bitcoin was created to solve the problem of the manipulation of trust and money, an opt out of our current system, but the exit only works if you take the keys. This is why self-custody is so important. 
+
 ### What is a Wallet?
 ### Hot vs Cold Wallets
+<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/a7cfe81b-462a-4b00-bb66-2221985e5365" />
 
 
 ### Hardware Wallet Threat Model
