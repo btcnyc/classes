@@ -54,7 +54,9 @@ Bitcoin was created to solve the problem of the manipulation of trust and money,
 
 ### What is a Wallet?
 The term wallet is a bit of a misnomer and therefore can be confusing. Yes it's true that a bitcoin wallet, like a physical wallet, stores value. But the main difference is that bitcoin wallets don't actually store any bitcoin. 
+
 Bitcoin only exists as a ledger entry on the public blockchain, or within the metaphorical vaults in cyberspace. Remember to move bitcoin you have to use your keys to unlock the vault and move the coins somewhere else, the private keys are what is used spend bitcoin. When you make a transaction with your wallet, you're really just using your keys to sign the transaction. This is how you show proof that you own the money and have the right to spend those coins. 
+
 Bitcoin wallets really just store your private keys, so it would be more accurate to call them keychains. 
 
 ### Hot vs Cold Wallets
