@@ -11,7 +11,6 @@ body:
       options:
         - "General course question"
         - "Bitcoin Node: Getting Started"
-        - "Lightning: Lightning Basics"
     validations:
       required: true
 
