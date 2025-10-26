@@ -30,7 +30,7 @@ Each `lesson.md` should start with a simple metadata block — no YAML required:
 > **Difficulty:** Beginner
 > **Duration:** 90m
 > **Instructor:** Your Name
-> **Tags:** node, lightning
+> **Tags:** node
 > **Last updated:** YYYY-MM-DD
 
 Then follow a consistent Markdown format:

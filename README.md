@@ -41,12 +41,9 @@ Each class includes slides, step-by-step guides, and instructor notes — all in
 │   ├── shared-assets/
 │   └── topics/
 │       ├── README.md
-│       ├── bitcoin-node/
-│       │   └── 00-getting-started/
-│       │       ├── index.md
-│       │       └── lesson.md
-│       └── lightning/
-│           └── 00-intro-to-lightning/
+│       └── bitcoin-node/
+│           └── 00-getting-started/
+│               ├── index.md
 │               └── lesson.md
 ├── mkdocs.yml
 ├── LICENSE

@@ -102,7 +102,7 @@ You can include **multiple paragraphs, lists, and code blocks** inside an admoni
 > **Difficulty:** Beginner  
 > **Duration:** 90m  
 > **Instructor:** Your Name  
-> **Tags:** node, lightning  
+> **Tags:** node  
 > **Last updated:** 2025-01-15
 
 ## 🎯 Objectives

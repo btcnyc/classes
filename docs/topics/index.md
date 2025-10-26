@@ -13,12 +13,6 @@ Learn how to run your own node and take control of your Bitcoin experience.
 
 * [00 – Getting Started](bitcoin-node/00-getting-started/lesson.md): Install and configure a Bitcoin node using platforms like Umbrel or Start9.
 
-### ⚡ Lightning
-
-Explore Bitcoin’s Layer 2 for fast, low-cost payments.
-
-* [00 – Intro to Lightning](lightning/00-intro-to-lightning/lesson.md): Understand the basics of channels, payments, and self-custody on Lightning.
-
 *(More topics coming soon — privacy, multisig, mining, and sovereignty!)*
 
 ---
