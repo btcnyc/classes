@@ -127,6 +127,143 @@ The easiest way to flash a ESP32
 
 5. That's it a progress bar should show up and when it's finish your ready to set it up
 
+## Setting up the Jade Wallet
+
+Once the firmware is successfully flashed, your LilyGO T-Display is now a fully functional Jade hardware wallet. This section will walk you through the initial setup process, from generating your seed phrase to connecting the device with wallet software like Sparrow or the Blockstream Green mobile app.
+
+### Initial Boot and Device Setup
+
+1. **Power on the device:** With the LilyGO still connected to your laptop via USB-C, the Jade firmware should boot automatically. You'll see the Jade logo appear on the display.
+
+2. **Enter setup mode:** The device will present you with an initial menu. Use the two physical buttons on the board to navigate:
+   - **Left button:** Move up/back
+   - **Right button:** Move down/forward
+   - **Both buttons simultaneously:** Select/confirm
+
+3. **Select "Setup":** Navigate to the Setup option and press both buttons to confirm. The device will guide you through the initial configuration process.
+
+### Creating Your Wallet
+
+4. **Choose "Begin Setup":** The device will prompt you to begin the wallet creation process. Confirm your selection.
+
+5. **Select "Create New Wallet":** You'll be presented with two options:
+   - **Create New Wallet:** Generates a fresh seed phrase (choose this for the workshop)
+   - **Restore Wallet:** Recover an existing wallet from a seed phrase (for advanced users)
+
+   Select "Create New Wallet" and confirm.
+
+6. **Generate entropy:** The device will use its random number generator to create cryptographic entropy. This process takes a few seconds as the device gathers randomness from multiple sources.
+
+### Recording Your Seed Phrase
+
+7. **Write down your seed phrase:** The device will now display a 12-word BIP39 seed phrase, one word at a time. This is the most critical step in the entire process.
+
+   **Important security practices:**
+   - Write each word clearly on paper (use the provided seed phrase cards if available)
+   - Double-check each word as you write it
+   - Never photograph the seed phrase with your phone
+   - Never type the words into any computer or phone
+   - Keep your seed phrase private—don't share your screen or show others
+
+8. **Verify your seed phrase:** After writing down all 12 words, the device will ask you to confirm several words from the phrase to ensure you recorded them correctly. Use the buttons to select the correct word for each prompt.
+
+   **Pro tip:** Before moving on, practice reading your seed phrase back to yourself aloud (quietly, so others can't hear). This helps catch any handwriting errors or ambiguities.
+
+### Connection Method
+
+9. **Choose connection type:** The Jade firmware supports two connection methods:
+   - **USB:** Wired connection via USB-C cable (recommended for this workshop)
+   - **Bluetooth:** Wireless connection to mobile devices
+
+   Select **USB** for now, as it's the most straightforward option for desktop wallet software and doesn't introduce wireless attack vectors.
+
+10. **Device naming:** The Jade will display a unique identifier like "Connect Jade A7D924". This identifier helps you distinguish between multiple hardware wallets if you end up building more than one. Make a note of this identifier if desired.
+
+### Connecting to Wallet Software
+
+You now have two main options for interfacing with your newly created hardware wallet: the Blockstream Green mobile app (for on-the-go use) or Sparrow Wallet (for desktop use with more advanced features). For this workshop, we'll focus on Sparrow Wallet, as it offers better visibility into the technical details of Bitcoin transactions.
+
+#### Option 1: Blockstream Green Mobile App (Quick Start)
+
+If you want to test your device quickly with a mobile device:
+
+1. Download the **Blockstream Green** app from the App Store (iOS) or Google Play (Android)
+2. Open the app and select "Connect Hardware Wallet"
+3. Choose "Jade" from the list of supported devices
+4. Plug your Jade into your phone using a USB-C to USB-C cable (or USB-C to Lightning adapter for iPhone 15+)
+5. Follow the on-screen prompts to connect and create your first wallet
+
+**Note about Liquid:** The Blockstream Green app supports both Bitcoin and Liquid (a Bitcoin sidechain). If you're using Liquid features, you may be prompted to "Export master blinding key"—this allows the app to see transaction amounts on the Liquid network, which are otherwise confidential. For this workshop, you can skip Liquid features and focus on standard Bitcoin transactions.
+
+#### Option 2: Sparrow Wallet (Recommended for Workshop)
+
+Sparrow Wallet is a powerful desktop application that gives you granular control over your Bitcoin transactions and connects seamlessly with your Jade hardware wallet.
+
+**Installation:**
+
+1. Download Sparrow Wallet from the official website: [sparrowwallet.com](https://sparrowwallet.com)
+2. Verify the download signature (see the Sparrow documentation for details)
+3. Install and launch the application
+
+**Connecting Your Jade to Sparrow:**
+
+1. In Sparrow, go to **File → New Wallet**
+2. Give your wallet a name (e.g., "My Jade Wallet")
+3. Click **Connected Hardware Wallet**
+4. Sparrow should automatically detect your plugged-in Jade device
+5. If prompted, confirm the connection on the Jade display by pressing both buttons
+6. Select your desired script type:
+   - **Native Segwit (P2WPKH):** Recommended for beginners—lowest fees, widest compatibility with modern wallets
+   - **Nested Segwit (P2SH-P2WPKH):** For compatibility with older services
+   - **Taproot (P2TR):** Most advanced, offers best privacy and lowest fees, but requires cutting-edge wallet support
+7. Click **Import Keystore** to complete the connection
+
+**Configuring Sparrow's Server Connection:**
+
+Before you can see your balance or broadcast transactions, Sparrow needs to connect to a Bitcoin node to fetch blockchain data. You have several options, each with different tradeoffs between convenience, privacy, and trust:
+
+- **Public Electrum Server (Easiest, least private):** Connects to a public server operated by a third party. Quick to set up, but the server can see your wallet's addresses and potentially link them to your IP address. Good for testing on testnet.
+  - In Sparrow, go to **Tools → Preferences → Server**
+  - Select **Public Server** and choose a server from the list
+  - Click **Test Connection** to verify
+
+- **Bitcoin Core Node (Most private, most work):** Run your own full Bitcoin node. This is the gold standard for privacy and verification, as you're validating every transaction yourself and not trusting anyone else's server. However, it requires downloading the entire blockchain (~600GB) and keeping your node synced.
+  - Install and sync Bitcoin Core
+  - In Sparrow, go to **Tools → Preferences → Server**
+  - Select **Bitcoin Core** and enter your node's connection details
+
+- **Private Electrum Server (Good balance):** Host your own Electrum server (like Fulcrum or Electrs) connected to your Bitcoin Core node. Offers full privacy without needing to run Sparrow on the same machine as your node.
+  - Set up an Electrum server pointing to your Bitcoin Core node
+  - In Sparrow, go to **Tools → Preferences → Server**
+  - Select **Private Electrum** and enter your server's URL
+
+For this workshop, using a **Public Electrum Server** is perfectly fine for testnet transactions. In a production environment with real funds, you'd want to consider running your own node or using a trusted private server for maximum privacy.
+
+### Verifying Your Setup
+
+Once connected to Sparrow (or another wallet application):
+
+1. **Check your addresses:** Sparrow will display receiving addresses derived from your seed phrase. You can verify an address on your Jade device by going to the "Receive" tab in Sparrow and clicking "Display Address"—the address should appear on both your computer screen and the Jade display.
+
+2. **Generate a receiving address:** Click the **Receive** tab in Sparrow and copy your first Bitcoin receiving address. 
+
+3. **Ready for transactions:** Your hardware wallet is now fully configured and ready to receive and sign Bitcoin transactions. Proceed to the next section to practice signing a testnet transaction.
+
+---
+
+### Quick Setup Checklist
+
+- [ ] Jade firmware boots successfully
+- [ ] New wallet created with 12-word seed phrase
+- [ ] Seed phrase written down clearly and verified
+- [ ] USB connection mode selected
+- [ ] Wallet software (Sparrow) installed and connected
+- [ ] Server connection configured (public Electrum for testnet)
+- [ ] First receiving address generated and verified on device
+
+If all items are checked, you're ready to move on to the signing practice section!
+
+
 ## Practice Signing (30 min)
 
 Walk through creating a testnet transaction, signing it with the new device, and broadcasting via Sparrow or Specter.
