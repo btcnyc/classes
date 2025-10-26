@@ -243,6 +243,33 @@ Before you can see your balance or broadcast transactions, Sparrow needs to conn
 
 For this workshop, using a **Public Electrum Server** is perfectly fine for testnet transactions. In a production environment with real funds, you'd want to consider running your own node or using a trusted private server for maximum privacy.
 
+#### Option 3: Blockstream Green Desktop App (Quick Start)
+
+Blackstream Green is the software to finish setting up the JadeDIY and it must be with the desktop version
+
+1. Get the official Blockstream application this is the link to it from their website when your there click [download now](https://blockstream.com/app/)
+
+![alt text](<blockstream website.avif>)
+
+2. Depending on where your downloads go most likely it will be in your download folder check there and double click the executable file to install the software.
+![alt text](<../assets/downloads folder.png>)
+3. Might have to give admin right in order to run the installer once you did that a new window will pop up that should look like the following picture and you hit next
+![alt text](<../assets/blockstream install1.png>)
+4. make sure where you want the installaed application to remain is in a location that either most of your programs are or somewhere easy to find and then hit next
+![alt text](<../assets/blockstream install2.png>)
+5. Installer will ask what you want your shortcut name to be once you have a name or stick with the default click next  
+![alt text](<../assets/blockstream install3.png>)
+6. If you want to create a desktop shortcut hit that checkmark otherwise click next
+![alt text](<../assets/blockstream install4.png>)
+7. And finally it will ask if you want to install click the install button and wait a few minutes
+![alt text](<../assets/blockstream install5.png>)
+8. The bar should fill to the end
+![alt text](<../assets/blockstream install6.png>)
+9. when it is filled to the end then and new page will show and you just need to click finish
+![alt text](<../assets/blockstream install7.png>)
+10. Find your newly installed application blockstream the following is an example of how i found it in my start menu on windows 11
+![alt text](<../assets/blockstream install8.png>)
+11. Once you find it click to launch a spash screen should show up
 ### Verifying Your Setup
 
 Once connected to Sparrow (or another wallet application):
@@ -252,6 +279,8 @@ Once connected to Sparrow (or another wallet application):
 2. **Generate a receiving address:** Click the **Receive** tab in Sparrow and copy your first Bitcoin receiving address. 
 
 3. **Ready for transactions:** Your hardware wallet is now fully configured and ready to receive and sign Bitcoin transactions. Proceed to the next section to practice signing a testnet transaction.
+
+
 
 ---
 
