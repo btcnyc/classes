@@ -8,6 +8,8 @@ duration: 120m
 > 📅 **Looking for date/time/location?**  
 > See the current [Event Page](./index.md)
 
+![DIY hardware wallet build on a workbench](../assets/hardware_wallet.webp){ width="100%" }
+
 # Bitcoin Hardware Wallet · Beginner Build
 
 **Audience:** Curious builders with little-to-no embedded experience.
