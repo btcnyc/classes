@@ -8,6 +8,8 @@ duration: 90m
 > 📅 **Looking for date/time/location?**  
 > See the current [Event Page](./index.md)
 
+![Hands-on Bitcoin node setup on a workbench](../assets/bitcoin_node.webp){ width="100%" }
+
 # Bitcoin Node · Getting Started
 
 **Audience:** Beginner–intermediate

@@ -1,6 +1,8 @@
 > 📘 **Want the full curriculum?**  
 > Read the evergreen [Lesson](./lesson.md)
 
+![Hands-on Bitcoin node setup on a workbench](../assets/bitcoin_node.webp){ width="100%" }
+
 # 🧠 BTC NYC Class: How to Run a Bitcoin Node
 
 **📅 Date:** Tuesday, September 30, 2025  
