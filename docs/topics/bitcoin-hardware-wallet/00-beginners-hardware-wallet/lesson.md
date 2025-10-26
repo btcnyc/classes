@@ -37,6 +37,11 @@ Building your own signing device isn't just about saving money—it's about unde
 
 ## Concept Primer (15 min)
 
+### What is Self-Custody and Why Does it Matter?
+### What is a Wallet?
+### Hot vs Cold Wallets
+
+
 ### Hardware Wallet Threat Model
 Hardware wallets exist to solve a fundamental problem: how do you sign Bitcoin transactions without exposing your private keys to an internet-connected computer that could be compromised by malware or remote attackers? The core threat model assumes your everyday laptop or phone is potentially hostile. A hardware wallet creates an isolated environment where private keys never leave the device, and transaction signing happens in a secure element or microcontroller that only communicates the signature back to the host computer, not the key itself. Even if your computer is completely compromised, an attacker can't steal your Bitcoin without physical access to the device and your PIN.
 
