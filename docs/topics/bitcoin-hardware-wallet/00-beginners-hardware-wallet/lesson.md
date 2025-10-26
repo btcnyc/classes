@@ -127,27 +127,6 @@ The easiest way to flash a ESP32
 
 5. That's it a progress bar should show up and when it's finish your ready to set it up
 
-## Lab Setup (10 min)
-
-Outline the space, safety notes (soldering, electrostatic discharge), and how to stage kits before students arrive.
-
----
-
-## Build Flow (45 min)
-
-### Step 1 — Assemble Core Components
-- Mount microcontroller and secure element breakout.
-- Connect display, buttons, and power.
-
-### Step 2 — Firmware Flashing
-- Install toolchain (e.g., `dfu-util`, `esptool`).
-- Flash the latest tagged release and verify checksum.
-
-### Step 3 — Wallet Initialization
-- Generate seed, record backup, and confirm PIN.
-
----
-
 ## Practice Signing (30 min)
 
 Walk through creating a testnet transaction, signing it with the new device, and broadcasting via Sparrow or Specter.
