@@ -46,6 +46,28 @@ However, hardware wallets introduce their own threats. You must trust the manufa
 
 ---
 
+## What Are We Building? 
+We are taking generic hardware, the LilyGo T-Display, and flashing Jade SDK firmware on it. The [Jade Plus](https://blockstream.com/jade/jade-plus/) is an open-source wallet, which typically costs $150:
+
+![Blockstream Jade Plus hardware wallet](../assets/blockstream_jade_plus.webp)
+
+Today, we'll be flashing their firmware onto a $15 hardware instead.
+
+### What to Buy
+
+![LilyGO T-Display development board](../assets/LILYGO-T-DISPLAY.jpg){ width="70%" }
+
+- **LilyGO T-Display (16MB with shell, model K164)** — [Order direct from LilyGO](https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) for about $15. This ESP32 board provides the display, buttons, and USB interface that mirror Blockstream's Jade Plus. The onboard ESP32 also includes Wi-Fi and Bluetooth radios; we'll ship firmware that keeps them disabled, but they shape your threat model because malicious code could switch them back on.
+- **USB-C cable** — Bring a data-capable cable so you can flash firmware and power the board straight from your laptop (totally fine for class use).
+
+### Why Build Your Own Hardware Wallet?
+
+- Save roughly $135 versus buying a commercial device.
+- Build comfort with firmware flashing, secure elements, and wallet hygiene.
+- Spin up additional signing devices to spread savings across multiple wallets.
+- Reduce supply chain risk by sourcing and assembling every component yourself.
+- Keep Lopp's mantra in mind: sovereignty and convenience are always at odds.
+
 ## Lab Setup (10 min)
 
 Outline the space, safety notes (soldering, electrostatic discharge), and how to stage kits before students arrive.
