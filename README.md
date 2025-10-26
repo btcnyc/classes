@@ -172,7 +172,7 @@ You’re free to fork, remix, and share — just credit **Bitcoin Network NYC**.
 ---
 
 <p align="center">
-  <img src="assets/btcnyc_logo.jpeg" alt="BTC NYC Logo" width="100" style="border-radius:50%;"/>
+  <img src="assets/btcnyc_logo.png" alt="BTC NYC Logo" width="100" style="border-radius:50%;"/>
 </p>
 <p align="center">
   <i>Learn. Build. Connect. Empower.</i>

@@ -1,4 +1,9 @@
-# 🎓 Welcome to BTC NYC Classes
+# 🎓 Welcome to BTC NYC Classes {style="text-align: center;"}
+
+<div style="text-align: center;">
+  <img src="shared-assets/logos/btcnyc_logo.png" alt="BTC NYC logo" width="180">
+</div>
+
 
 Welcome to **Bitcoin Network NYC’s Class Library** — hands-on Bitcoin education you can use, remix, and teach.
 

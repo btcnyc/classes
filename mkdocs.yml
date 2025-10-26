@@ -30,7 +30,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-  logo: shared-assets/logos/btcnyc_logo.jpeg
+  logo: shared-assets/logos/btcnyc_logo.png
   favicon: shared-assets/logos/btcnyc_favicon.png
 
 nav:
