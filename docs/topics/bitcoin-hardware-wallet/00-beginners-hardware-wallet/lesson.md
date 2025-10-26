@@ -274,46 +274,36 @@ For this workshop, using a **Public Electrum Server** is perfectly fine for test
 
 #### Option 3: Blockstream Green Desktop App (Quick Start)
 
-Blackstream Green is the software to finish setting up the JadeDIY and it must be with the desktop version
+Blockstream Green is the software to finish setting up the JadeDIY and it must be with the desktop version
 
 1. Get the official Blockstream application — this is the link to it from their website. When you're there click [Download now](https://blockstream.com/app/).
-
    ![Blockstream website](<../assets/blockstream website.jpg>)
 
 2. Depending on where your downloads go, most likely the file will be in your Downloads folder. Check there and double-click the executable file to install the software.
-
    ![Downloads folder example](<../assets/downloads folder.png>)
 
 3. You might have to give admin rights to run the installer. Once you do, a window will pop up that should look like the following picture — click **Next**.
-
    ![Blockstream installer step 1](<../assets/blockstream install1.png>)
 
 4. Choose where you want the installed application to reside (a location with your other programs or somewhere easy to find), then click **Next**.
-
    ![Blockstream installer step 2](<../assets/blockstream install2.png>)
 
 5. The installer will ask for a shortcut name. Enter one or keep the default, then click **Next**.
-
    ![Blockstream installer step 3](<../assets/blockstream install3.png>)
 
 6. If you want a desktop shortcut, check the box; otherwise click **Next**.
-
    ![Blockstream installer step 4](<../assets/blockstream install4.png>)
 
 7. Finally, click **Install** and wait a few minutes for the installation to complete.
-
    ![Blockstream installer installing](<../assets/blockstream install5.png>)
 
 8. The progress bar should fill to the end.
-
    ![Blockstream installer progress](<../assets/blockstream install6.png>)
 
 9. When it finishes, a new page will appear — click **Finish**.
-
    ![Blockstream installer finish](<../assets/blockstream install7.png>)
 
 10. Find your newly installed Blockstream application (example shown in the Windows 11 Start menu).
-
    ![Blockstream in Start menu](<../assets/blockstream install8.png>)
 
 11. Once you find it, click to launch — a splash screen should appear.
