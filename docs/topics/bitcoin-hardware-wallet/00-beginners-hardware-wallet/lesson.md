@@ -54,9 +54,11 @@ Bitcoin was created to solve the problem of the manipulation of trust and money,
 
 ### What is a Wallet?
 ### Hot vs Cold Wallets
-A hot wallet is a software app on your phone or computer. It’s connected to the internet, so it’s easier to use and quicker to sign transactions, but this also means it's more exposed to hackers. And example would be a phone wallet or a browser wallet. 
+A hot wallet is a software app on your phone or computer. It’s connected to the internet, so it’s easier to use and quicker to sign transactions, but this also means it's more exposed to hackers, malware, and phishing. It's called "hot" because it's connected to the internet, is plugged in and powered on. An example would be a phone wallet or a browser wallet. 
+
 <img width="600" height="337" alt="image" src="https://github.com/user-attachments/assets/a7cfe81b-462a-4b00-bb66-2221985e5365" />
-On the other hand a cold wallet, or hardware wallet, is a device that stores your key offline. This removes the ability for someone to hack your funds and is much safer for long-term savings.
+
+On the other hand a cold wallet, or hardware wallet, is a device that creates and stores your key offline. This removes the ability for someone to hack your funds and is much safer for long-term savings, however it's a device that is needed to sign every transaction and can be less convenient.
 
 ### Hardware Wallet Threat Model
 Hardware wallets exist to solve a fundamental problem: how do you sign Bitcoin transactions without exposing your private keys to an internet-connected computer that could be compromised by malware or remote attackers? The core threat model assumes your everyday laptop or phone is potentially hostile. A hardware wallet creates an isolated environment where private keys never leave the device, and transaction signing happens in a secure element or microcontroller that only communicates the signature back to the host computer, not the key itself. Even if your computer is completely compromised, an attacker can't steal your Bitcoin without physical access to the device and your PIN.
