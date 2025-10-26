@@ -11,6 +11,7 @@ body:
       options:
         - "General course question"
         - "Bitcoin Node: Getting Started"
+        - "Bitcoin Hardware Wallet: Beginner Build"
     validations:
       required: true
 

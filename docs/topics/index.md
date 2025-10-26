@@ -13,6 +13,12 @@ Learn how to run your own node and take control of your Bitcoin experience.
 
 * [Getting Started](bitcoin-node/00-getting-started/lesson.md): Install and configure a Bitcoin node using platforms like Umbrel or Start9.
 
+### 🔐 Bitcoin Hardware Wallet
+
+Build a DIY signing device and understand the security trade-offs behind open-source hardware wallets.
+
+* [Beginner Build](bitcoin-hardware-wallet/00-beginners-hardware-wallet/lesson.md): Assemble hardware, flash open-source firmware, and test a wallet end-to-end.
+
 *(More topics coming soon — privacy, multisig, mining, and sovereignty!)*
 
 ---

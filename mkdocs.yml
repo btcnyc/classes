@@ -42,6 +42,10 @@ nav:
               - Event Page: topics/bitcoin-node/00-getting-started/index.md
               - Lesson Plan: topics/bitcoin-node/00-getting-started/lesson.md
           # - Using Your Node: topics/bitcoin-node/01-using-your-node/lesson.md
+      - Bitcoin Hardware Wallet:
+          - Beginner Build:
+              - Event Page: topics/bitcoin-hardware-wallet/00-beginners-hardware-wallet/index.md
+              - Lesson Plan: topics/bitcoin-hardware-wallet/00-beginners-hardware-wallet/lesson.md
   - Teachers Lounge:
       - Overview: teachers-lounge/index.md
       - Run a Class (Runbook): teachers-lounge/run-a-class.md
