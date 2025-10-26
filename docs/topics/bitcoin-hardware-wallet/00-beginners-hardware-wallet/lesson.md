@@ -41,7 +41,7 @@ However, hardware wallets introduce their own threats. You must trust the manufa
 ### Key Concepts
 - **Entropy and seed phrases:** Your wallet is only as safe as the randomness that births it. We will mix the device's random number generator with human-friendly tricks like dice rolls, convert that entropy into a 12- or 24-word [BIP39 phrase](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), and leave the room with a written or metal backup you trust.
 - **Seed phrase hygiene:** Treat the seed like master keys to your savings. Never type the words into a phone or computer—keyloggers, screenshots, and cloud backups can leak it forever. Keep the phrase offline, store it somewhere only you can access, and practice reading it back aloud before you leave.
-- **Secure element + microcontroller:** Think of the secure element as the vault and the microcontroller as the brains. The secure element guards private keys with tamper resistance, while the microcontroller handles the screen, buttons, and firmware logic. Building both together teaches you the security benefits *and* the debugging trade-offs of each chip.
+- **Secure element + microcontroller:** Think of the secure element as the vault and the microcontroller as the brains. The secure element guards private keys with tamper resistance, while the microcontroller handles the screen, buttons, and firmware logic. Note that the hardware wallets we are building today do not have a secure element. This doesn't mean it's insecure, just that it has one less level of protection.
 - **Trusting firmware:** Firmware is the invisible operating system of the wallet. Always download from tagged releases, check the published hash, and understand that reproducible builds let multiple people compile the same code and arrive at the exact same binary. If the checksum does not match, you do not sign.
 
 ---
@@ -67,6 +67,40 @@ Today, we'll be flashing their firmware onto a $15 hardware instead.
 - Spin up additional signing devices to spread savings across multiple wallets.
 - Reduce supply chain risk by sourcing and assembling every component yourself.
 - Keep Lopp's mantra in mind: sovereignty and convenience are always at odds.
+
+## Physical Set Up
+
+### Prepare Your Case
+
+You have two options for housing your LilyGO T-Display board: a 3D printed case or the official LilyGO enclosure. The printed case can be found and printed from [this model](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). It offers a lightweight and customizable shell for your device.
+
+![3D printed LilyGO case](../assets/lilygo_case_printed.jpg)
+
+Alternatively, you can use the official LilyGO case, which provides a slightly different fit and finish, offering more robust protection and a polished look.
+
+![Official LilyGO case](../assets/lilygo_case_official.png)
+
+Note that the printed and official cases differ slightly in design and assembly. Whichever option you choose, ensure the board is properly seated inside the case to avoid loose connections or damage.
+
+### Inspect the Board
+
+Before proceeding, carefully inspect your LilyGO T-Display board for any visible defects or debris. Check that the display, buttons, and USB-C port are clean and free of dust or solder splashes. Handle the board with care, and observe electrostatic discharge (ESD) safety by grounding yourself or using an ESD wrist strap to prevent damage to sensitive components.
+
+### Connect to Your Laptop
+
+Using a data-capable USB-C cable, connect the LilyGO board to your laptop. This connection will provide power and allow you to flash the firmware.
+
+On boot, you will be greeted with the following screen:
+
+![LilyGO boot screen](../assets/lilygo_start_up_screen.png)
+
+
+When powered on, the LilyGO will display a color test screen cycling through solid colors. This confirms the display and board are functioning correctly before flashing firmware.
+
+Once the color test completes, the screen will settle on a default state, indicating the board is ready for the next steps in the build process.
+
+![LilyGO plugged into laptop](../assets/settled_screen.png)
+
 
 ## Lab Setup (10 min)
 
