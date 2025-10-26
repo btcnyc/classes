@@ -21,7 +21,7 @@ duration: 120m
 * Recognize the security model of DIY hardware wallets versus commercial devices.
 * Assemble a microcontroller-based signing device with a secure element.
 * Flash open-source firmware and verify the build checksum.
-* Sign and broadcast a testnet transaction using their new device.
+* Sign and broadcast a mainnet transaction using their new device.
 
 ---
 
@@ -227,7 +227,7 @@ Before you can see your balance or broadcast transactions, Sparrow needs to conn
   - Select **Public Server** and choose a server from the list
   - Click **Test Connection** to verify
 
-- **Bitcoin Core Node (Most private, most work):** Run your own full Bitcoin node. This is the gold standard for privacy and verification, as you're validating every transaction yourself and not trusting anyone else's server. However, it requires downloading the entire blockchain (~600GB) and keeping your node synced.
+- **Bitcoin Core or Knots Node (Most private, most work):** Run your own full Bitcoin node. This is the gold standard for privacy and verification, as you're validating every transaction yourself and not trusting anyone else's server. However, it requires downloading the entire blockchain (~600GB) and keeping your node synced.
   - Install and sync Bitcoin Core
   - In Sparrow, go to **Tools → Preferences → Server**
   - Select **Bitcoin Core** and enter your node's connection details
@@ -253,13 +253,15 @@ Once connected to Sparrow (or another wallet application):
 
 ### Quick Setup Checklist
 
-- [ ] Jade firmware boots successfully
-- [ ] New wallet created with 12-word seed phrase
-- [ ] Seed phrase written down clearly and verified
-- [ ] USB connection mode selected
-- [ ] Wallet software (Sparrow) installed and connected
-- [ ] Server connection configured (public Electrum for testnet)
-- [ ] First receiving address generated and verified on device
+<ul class="task-list" style="list-style: none; padding-left: 0;">
+<li><label><input type="checkbox"> Jade firmware boots successfully</label></li>
+<li><label><input type="checkbox"> New wallet created with 12-word seed phrase</label></li>
+<li><label><input type="checkbox"> Seed phrase written down clearly and verified</label></li>
+<li><label><input type="checkbox"> USB connection mode selected</label></li>
+<li><label><input type="checkbox"> Wallet software (Sparrow) installed and connected</label></li>
+<li><label><input type="checkbox"> Server connection configured (public Electrum for mainnet)</label></li>
+<li><label><input type="checkbox"> First receiving address generated and verified on device</label></li>
+</ul>
 
 If all items are checked, you're ready to move on to the signing practice section!
 
