@@ -276,29 +276,47 @@ For this workshop, using a **Public Electrum Server** is perfectly fine for test
 
 Blackstream Green is the software to finish setting up the JadeDIY and it must be with the desktop version
 
-1. Get the official Blockstream application this is the link to it from their website when your there click [download now](https://blockstream.com/app/)
+1. Get the official Blockstream application — this is the link to it from their website. When you're there click [Download now](https://blockstream.com/app/).
 
-![alt text](<blockstream website.avif>)
+   ![Blockstream website](<../assets/blockstream website.jpg>)
 
-2. Depending on where your downloads go most likely it will be in your download folder check there and double click the executable file to install the software.
-![alt text](<../assets/downloads folder.png>)
-3. Might have to give admin right in order to run the installer once you did that a new window will pop up that should look like the following picture and you hit next
-![alt text](<../assets/blockstream install1.png>)
-4. make sure where you want the installaed application to remain is in a location that either most of your programs are or somewhere easy to find and then hit next
-![alt text](<../assets/blockstream install2.png>)
-5. Installer will ask what you want your shortcut name to be once you have a name or stick with the default click next  
-![alt text](<../assets/blockstream install3.png>)
-6. If you want to create a desktop shortcut hit that checkmark otherwise click next
-![alt text](<../assets/blockstream install4.png>)
-7. And finally it will ask if you want to install click the install button and wait a few minutes
-![alt text](<../assets/blockstream install5.png>)
-8. The bar should fill to the end
-![alt text](<../assets/blockstream install6.png>)
-9. when it is filled to the end then and new page will show and you just need to click finish
-![alt text](<../assets/blockstream install7.png>)
-10. Find your newly installed application blockstream the following is an example of how i found it in my start menu on windows 11
-![alt text](<../assets/blockstream install8.png>)
-11. Once you find it click to launch a spash screen should show up
+2. Depending on where your downloads go, most likely the file will be in your Downloads folder. Check there and double-click the executable file to install the software.
+
+   ![Downloads folder example](<../assets/downloads folder.png>)
+
+3. You might have to give admin rights to run the installer. Once you do, a window will pop up that should look like the following picture — click **Next**.
+
+   ![Blockstream installer step 1](<../assets/blockstream install1.png>)
+
+4. Choose where you want the installed application to reside (a location with your other programs or somewhere easy to find), then click **Next**.
+
+   ![Blockstream installer step 2](<../assets/blockstream install2.png>)
+
+5. The installer will ask for a shortcut name. Enter one or keep the default, then click **Next**.
+
+   ![Blockstream installer step 3](<../assets/blockstream install3.png>)
+
+6. If you want a desktop shortcut, check the box; otherwise click **Next**.
+
+   ![Blockstream installer step 4](<../assets/blockstream install4.png>)
+
+7. Finally, click **Install** and wait a few minutes for the installation to complete.
+
+   ![Blockstream installer installing](<../assets/blockstream install5.png>)
+
+8. The progress bar should fill to the end.
+
+   ![Blockstream installer progress](<../assets/blockstream install6.png>)
+
+9. When it finishes, a new page will appear — click **Finish**.
+
+   ![Blockstream installer finish](<../assets/blockstream install7.png>)
+
+10. Find your newly installed Blockstream application (example shown in the Windows 11 Start menu).
+
+   ![Blockstream in Start menu](<../assets/blockstream install8.png>)
+
+11. Once you find it, click to launch — a splash screen should appear.
 ### Verifying Your Setup
 
 Once connected to Sparrow (or another wallet application):
