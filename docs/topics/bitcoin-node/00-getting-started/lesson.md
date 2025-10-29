@@ -148,7 +148,7 @@ A Bitcoin node is your personal referee for the network:
 
 **Boot the node from USB**
 
-* Insert the flashed USB into the mini‑PC.
+* Insert the flashed USB into the mini‑PC. Attach a display and keyboard to the mini‑PC — you'll need them to access the BIOS/boot menu and select the USB as the boot device or otherwise specify the boot image.
 * Enter BIOS/boot menu if needed; choose the USB drive.
 * Follow on‑screen prompts to install StartOS to disk. When complete, remove the USB and reboot.
 
