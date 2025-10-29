@@ -14,7 +14,7 @@ duration: 90m
 
 **Audience:** Beginner–intermediate
 
-**Duration:** 90–120 min (see timing in Agenda)
+**Duration:** 90–121 min (see timing in Agenda)
 
 **Outcomes:** By the end, students will:
 
