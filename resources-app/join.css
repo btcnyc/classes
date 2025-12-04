@@ -1,0 +1,316 @@
+/* === Join Page Styles === */
+
+:root {
+    /* Split difference: Gold-Green hybrid */
+    --gold: #E5E800;
+    --gold-dark: #C4C700;
+    --gold-light: #F0F24D;
+}
+
+.join-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* === Section Box === */
+.join-content .section-box {
+    background: linear-gradient(180deg, #0d1117 0%, #080b0f 100%);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 2.5rem;
+}
+
+.section-box h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.section-description {
+    color: var(--text-secondary);
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* === Pricing Grid === */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.pricing-card {
+    background: transparent;
+    border: 1px solid #32D011;
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.pricing-card-green {
+    border-color: #32D011;
+    box-shadow: none;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.pricing-card-featured {
+    border-color: var(--gold);
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.2);
+    position: relative;
+}
+
+.pricing-card-featured:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px rgba(212, 175, 55, 0.4), 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.pricing-card-featured::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--gold-dark), var(--gold-light), var(--gold-dark));
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+/* === Tier Badge === */
+.tier-badge {
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.tier-badge-green {
+    background: rgba(0, 102, 8, 0.2);
+    color: var(--secondary);
+    border: 1px solid var(--primary);
+}
+
+.tier-badge-gold {
+    background: rgba(212, 175, 55, 0.2);
+    color: var(--gold-light);
+    border: 1px solid var(--gold);
+}
+
+/* === Price === */
+.price {
+    margin-bottom: 1.5rem;
+}
+
+.price .amount {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.price .period {
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+/* === Features List === */
+.features {
+    list-style: none;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.features li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.features li:last-child {
+    border-bottom: none;
+}
+
+/* === Join Tier Buttons === */
+.join-tier-btn {
+    width: 100%;
+    padding: 0.9rem 2rem;
+    border-radius: var(--radius);
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: auto;
+    border: none;
+}
+
+.join-tier-btn-green {
+    background: #32D011;
+    color: var(--bg-dark);
+}
+
+.join-tier-btn-green:hover {
+    background: #4ae025;
+    color: var(--bg-dark);
+    transform: translateY(-2px);
+}
+
+.join-tier-btn-featured {
+    background: var(--gold);
+    color: var(--bg-dark);
+}
+
+.join-tier-btn-featured:hover {
+    background: var(--gold-light);
+    color: var(--bg-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(212, 175, 55, 0.3);
+}
+
+/* === Subscribe Section === */
+.subscribe-section .section-box {
+    max-width: none;
+}
+
+.subscribe-section .section-description {
+    max-width: 100%;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.subscribe-form input {
+    padding: 0.9rem 1rem;
+    background: var(--bg-input);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text-primary);
+    font-size: 1rem;
+    width: 100%;
+}
+
+.subscribe-form input::placeholder {
+    color: var(--text-muted);
+}
+
+.subscribe-form input:focus {
+    outline: none;
+    border-color: var(--secondary);
+}
+
+.subscribe-btn {
+    padding: 0.9rem 2rem;
+    background: var(--secondary);
+    color: var(--bg-dark);
+    border: none;
+    border-radius: var(--radius);
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 100%;
+}
+
+.subscribe-btn:hover {
+    background: #4ae025;
+    transform: translateY(-2px);
+}
+
+.subscribe-success {
+    color: var(--secondary);
+    text-align: center;
+    font-weight: 500;
+}
+
+/* === Entrance Animations === */
+.animate-ready .pricing-card {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animate-ready .pricing-card.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animate-ready .subscribe-section .section-box {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animate-ready .subscribe-section .section-box.animate-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+    .join-content {
+        padding: 1rem;
+    }
+    
+    .join-content .section-box {
+        padding: 1.5rem;
+    }
+    
+    .section-box h2 {
+        font-size: 1.35rem;
+    }
+    
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .pricing-card {
+        padding: 1.5rem;
+    }
+    
+    .price .amount {
+        font-size: 2.5rem;
+    }
+    
+    .join-tier-btn {
+        min-height: 48px;
+        font-size: 1rem;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .subscribe-form input,
+    .subscribe-btn {
+        min-height: 48px;
+        font-size: 1rem;
+    }
+}
+
