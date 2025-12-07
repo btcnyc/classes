@@ -42,6 +42,26 @@ Vibe coding is the practice of creating software by describing what you want in 
 * Rapid iteration — see changes instantly
 * Accessible to everyone — if you can describe it, you can build it
 
+**The Magic of Vibe Coding**
+
+The truly magical experience is the **tight feedback loop**:
+
+1. You describe what you want in plain English
+2. The AI writes the code
+3. You see the result instantly in a preview
+4. You describe what to change
+5. You see those changes immediately
+
+This instant back-and-forth conversation with an AI that can actually *build things* for you is what makes vibe coding feel like magic. By the end of this workshop, you'll experience this for yourself!
+
+### What is a Repository?
+
+A **repository** (or "repo") is simply a folder where your code lives on GitHub. Think of it as a project folder in the cloud that:
+
+* Stores all your website files
+* Keeps track of every change you make (like a super-powered undo button)
+* Can be shared with others or kept private
+
 ### What is GitHub Pages?
 
 GitHub Pages is a free service that lets you host a website directly from a GitHub repository.
@@ -51,6 +71,15 @@ GitHub Pages is a free service that lets you host a website directly from a GitH
 * A free URL like `yourusername.github.io/your-repo`
 * Free hosting — no credit card required
 * Automatic updates — push code, site updates automatically
+
+### Why Build a Website?
+
+Web development is the most flexible starting point for vibe coding because:
+
+* **Cross-platform:** Works on any device with a browser — phones, tablets, computers
+* **Instant sharing:** Just send someone a link
+* **Visual feedback:** You can see your changes immediately
+* **No app stores:** No approval process, no fees, instant publishing
 
 **What is a "static" website?**
 
@@ -73,6 +102,16 @@ Not all AI models are created equal. During this workshop, you'll learn that:
 * **Claude, ChatGPT, etc.** — Each has strengths in different areas
 
 **Pro tip:** If your website looks too generic or plain, try asking Gemini to redesign the HTML and then paste it back into your project.
+
+**A note on AI costs (for your future reference):**
+
+In this workshop, we use free tools. But as you explore vibe coding further, you'll encounter paid options:
+
+* More powerful AI models (like Claude Opus or GPT-4) cost more "credits" or "tokens" per use
+* Simpler tasks don't need the most powerful models — you can save credits by using lighter models for basic work
+* Tools like Cursor ($20/month) give you access to multiple models and more advanced features
+
+For today, everything is free! But understanding that "different models = different costs" will help you make smart choices later.
 
 ---
 
@@ -138,6 +177,8 @@ Now we'll create a place to store our website code and enable free hosting.
 5. ✅ Check **Add a README file**
 6. Click **Create repository**
 
+> **📝 Public vs Private:** Public repositories let anyone see your code — this is required for free GitHub Pages hosting. For a simple website with no sensitive information, public is perfectly fine! If you later work on projects with passwords or private data, you'd want private repositories (which require a paid GitHub plan for Pages hosting).
+
 ### Enable GitHub Pages
 
 1. In your new repository, click **Settings** (gear icon)
@@ -196,9 +237,13 @@ Now let's make it live:
 1. Ask the AI: "Please give me the terminal commands to commit and push these changes. Be direct and opinionated. I will paste them in myself."
 2. Click the **Insert into terminal** button (or copy the commands)
 3. Press **Enter** in the terminal to run them
-4. Go back to your repository on GitHub
-5. Wait for the yellow dot to turn into a green checkmark (about 30 seconds)
-6. Visit `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME`
+4. Go back to your repository on GitHub (the main Code tab)
+5. Look for the **deployment indicator** next to your latest commit:
+   * 🟡 **Yellow dot** = Still deploying (wait...)
+   * ✅ **Green checkmark** = Deployed! Your site is ready
+6. Once you see the green checkmark, visit `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME`
+
+> **💡 Tip:** The yellow dot usually turns green within 30-60 seconds. If you visit your site too early, you'll see the old version. Just wait for the green checkmark!
 
 🎉 **Congratulations! Your website is live on the internet!**
 
@@ -244,6 +289,17 @@ To add images to your website:
 * [Gemini](https://gemini.google.com) — Free image generation
 * [ChatGPT](https://chat.openai.com) with DALL-E
 * [Grok](https://grok.x.ai) — No watermarks
+
+**🧠 Pro tip — Using AI to write prompts for AI:**
+
+Not sure how to describe the image you want? Ask one AI to write the prompt for another! For example, in your Codespace, ask:
+
+```
+Give me a prompt for an image header for this site. 
+I'll paste it into an image generation AI.
+```
+
+Then copy that prompt into Gemini or another image generator. This "AI writing prompts for AI" technique is surprisingly effective!
 
 ---
 
@@ -311,6 +367,16 @@ GitHub gives you a limited number of free Codespaces. Here's how to manage them:
 
 > **⚠️ Important:** Don't worry about deleting Codespaces — your actual code is safely stored in your GitHub repository. Codespaces are just temporary workspaces for editing.
 
+### Understanding Commits (The Magic Undo Button)
+
+When you "commit and push" your changes, you're creating a **checkpoint** — like saving your game in a video game. 
+
+* Every commit is saved forever in your repository's history
+* If you ever mess something up badly, you can go back to a previous checkpoint
+* This is called **version control** — it's like having an infinite undo button
+
+You don't need to understand the technical details for this workshop, but knowing that your work is safely checkpointed every time you commit should give you confidence to experiment!
+
 ---
 
 ## Homework / Further Study
@@ -365,6 +431,10 @@ Some students may ask about more advanced tools like Cursor. Explain that:
 * It's installed software (not browser-based)
 * It offers more power but more complexity
 * Great for a future "Part 2" workshop!
+
+**Gauge interest for Part 2:**
+
+At the end of the session, consider asking: "Who would be interested in a Part 2 workshop where we use Cursor and learn more advanced vibe coding techniques?" This helps plan future classes and identifies engaged students.
 
 **Sample pizza website prompt that works well:**
 
