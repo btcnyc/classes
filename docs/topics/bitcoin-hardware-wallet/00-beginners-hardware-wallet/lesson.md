@@ -92,7 +92,7 @@ Today, we'll be flashing their firmware onto a $15 hardware instead.
 
 ![LilyGO T-Display development board](../assets/LILYGO-T-DISPLAY.jpg){ width="70%" }
 
-- **LilyGO T-Display (16MB with shell, model K164)** — [Order direct from LilyGO](https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) for about $15. This ESP32 board provides the display, buttons, and USB interface that mirror Blockstream's Jade Plus. The onboard ESP32 also includes Wi-Fi and Bluetooth radios; we'll ship firmware that keeps them disabled, but they shape your threat model because malicious code could switch them back on.
+- **LilyGO T-Display (16MB with shell, model K164)** — [Order direct from LilyGO](https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) for about $15. This ESP32 board provides the display, buttons, and USB interface that mirror Blockstream's Jade Plus. The onboard ESP32 also includes Wi-Fi and Bluetooth radios; we won't be disabling those capabilities in this class, but it is possible to disable them with other firmware updates. Additional capabilities for your hardware wallet expand so your threat surface area, so keep that in mind when selecting a hardware wallet.
 - **USB-C cable** — Bring a data-capable cable so you can flash firmware and power the board straight from your laptop (totally fine for class use).
 
 ### Why Build Your Own Hardware Wallet?
