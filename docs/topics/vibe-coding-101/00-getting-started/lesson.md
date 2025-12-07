@@ -16,13 +16,14 @@ duration: 90m
 
 **Outcomes:** By the end, students will:
 
-* Outcome 1
-* Outcome 2
-* Outcome 3
+* Understand what vibe coding is and how it enables coding through AI prompts
+* Use the open source tool Cursor to vibe code
+* Build open source websites on GitHub
+* Create and maintain open, collaborative projects
 
 ## Abstract
 
-Brief description of what this class teaches and why it matters.
+Vibe coding is a new tool that has arisen in the past year, which allows anyone to code, without any technical experience needed, simply by prompting AI. This workshop introduces beginners to vibe coding using the open source tool Cursor, teaching participants how to build open source websites on GitHub. By the end of the session, students will be able to create and maintain open, collaborative projects, making coding accessible to everyone regardless of their technical background.
 
 ---
 
@@ -52,8 +53,8 @@ Explanation of the second major concept.
 
 ## Prerequisites (tell students ahead)
 
-* Prerequisite 1
-* Prerequisite 2
+* **Laptop** — Required for hands-on vibe coding practice
+* No prior coding experience needed — this workshop is accessible to beginners
 
 **Instructor prep**
 
