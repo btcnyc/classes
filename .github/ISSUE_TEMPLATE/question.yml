@@ -12,6 +12,7 @@ body:
         - "General course question"
         - "Bitcoin Node: Getting Started"
         - "Bitcoin Hardware Wallet: Beginner Build"
+        - "Vibe Coding 101: Getting Started"
     validations:
       required: true
 

@@ -46,6 +46,10 @@ nav:
           - Beginner Build:
               - Event Page: topics/bitcoin-hardware-wallet/00-beginners-hardware-wallet/index.md
               - Lesson Plan: topics/bitcoin-hardware-wallet/00-beginners-hardware-wallet/lesson.md
+      - Vibe Coding 101:
+          - Getting Started:
+              - Event Page: topics/vibe-coding-101/00-getting-started/index.md
+              - Lesson Plan: topics/vibe-coding-101/00-getting-started/lesson.md
   - Teachers Lounge:
       - Overview: teachers-lounge/index.md
       - Run a Class (Runbook): teachers-lounge/run-a-class.md
