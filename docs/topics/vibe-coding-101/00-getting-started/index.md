@@ -13,33 +13,52 @@
 
 ## 🧩 Overview
 
-Vibe coding is a new tool that has arisen in the past year, which allows anyone to code, without any technical experience needed, simply by prompting AI.
+Vibe coding is a new approach that has emerged in the past year, allowing anyone to create software without any technical experience — simply by prompting AI.
 
-In this workshop, accessible to beginners, you'll learn how to vibe code with the open source tool Cursor, and how to build open source websites on GitHub, ensuring your project remains open and collaborative to everyone.
+In this workshop, you'll learn how to build and deploy a real website using only your web browser and natural language prompts. No software installation required. No coding experience needed. No payment or subscription necessary.
 
-Be sure to bring a laptop to learn how to vibe code firsthand. Your open source vibe coding journey begins here!
-
----
-
-## 🧰 Materials / Hardware
-
-* **Laptop** — Required for hands-on vibe coding practice
+By the end of the 2-hour session, you'll have a live website on the internet that you created entirely through AI-assisted vibe coding.
 
 ---
 
-## 💬 Community / Links
+## 🧰 Prerequisites
 
-* [Event Page](https://luma.com/wkhgc1yc)
-* [Telegram](https://t.me/+M79B-75J2YU3OTRh)
+* **Laptop** — Any laptop with a web browser (Mac, Windows, or Linux)
+* **Email address** — For creating a GitHub account (if you don't have one)
+* No coding experience required
+* No software installation needed
+* No payment or credit card needed
+
+---
+
+## 📋 What You'll Build
+
+You'll create a fully functional website, hosted for free on GitHub Pages. Example projects include:
+
+* A fun themed landing page (like a "Bitcoin Pizza" restaurant site)
+* A personal portfolio or resume site  
+* A project showcase page
+* A simple business landing page
 
 ---
 
 ## 🎯 Takeaway
 
-Code without coding experience. Build open source projects with AI.
+By the end of this workshop, you will:
+
+* Have a live website at `yourusername.github.io/your-project`
+* Understand how to use AI to build software without coding
+* Know which AI tools work best for different tasks
+* Be able to continue iterating on your website after the class
+
+---
+
+## 💬 Community / Links
+
+* [Event Page](https://lu.ma/wkhgc1yc)
+* [Telegram](https://t.me/+M79B-75J2YU3OTRh)
 
 ---
 
 > 📘 **Want the full curriculum?**  
 > Read the evergreen [Lesson](./lesson.md)
-
