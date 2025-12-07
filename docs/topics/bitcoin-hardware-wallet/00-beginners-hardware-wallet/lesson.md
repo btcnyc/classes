@@ -146,21 +146,27 @@ Each method has its tradeoffs: the easy way sacrifices some degree of trust and 
 
 ## The Easy Way
 
-The easiest way to flash a ESP32
+The easiest way to flash an ESP32
 
-1. Go to the official Blockstream Github: [https://github.com/Blockstream/jadediyflasher](https://github.com/Blockstream/jadediyflasher)  
+1. Make sure your LilyGo T-Display either displays a default splash screen or nothing but you can see a blue LED light. This ensures that you do not have the DIY Jade already flashed. Example of an erased flash LilyGo T-Display:
+   ![Erased flash LilyGo](<../assets/erased flash lilygo.jpg>)
+
+2. Go to the official Blockstream Github: [https://github.com/Blockstream/jadediyflasher](https://github.com/Blockstream/jadediyflasher)  
    ![Blockstream Github](../assets/blockstream_github.jpeg)
 
-2. You can download the source file and run the website locally, but GitHub already hosts it at [https://blockstream.github.io/jadediyflasher/](https://blockstream.github.io/jadediyflasher/). GitHub serves the HTML, CSS, JavaScript, etc. directly to your browser so you can flash the device without installing developer tools.  
+3. You can download the source file and run the website locally, but GitHub already hosts it at [https://blockstream.github.io/jadediyflasher/](https://blockstream.github.io/jadediyflasher/). GitHub serves the HTML, CSS, JavaScript, etc. directly to your browser so you can flash the device without installing developer tools.  
    ![Blockstream Jade DIY Flasher](../assets/blockstream_jade_diy_flasher.jpeg)
 
-3. Open the dropdown menu (it likely defaults to `M5Stack Core2`) and select your development board — for this class, pick `LILYGO T-Display`.  
+4. Open the dropdown menu (it likely defaults to `M5Stack Core2`) and select your development board — for this class, pick `LILYGO T-Display`.  
    ![DIY Dropdown Menu](../assets/diy_dropdown_menu.jpeg)
 
-4. When you click flash this is going to appear. In order to know which device is the LILYGO, unplug the lilygo and plug it back in. The com port that the lilygo will appear and disappear. Click the COM port that the Jade is plugged into
+5. When you click "Flash", a dialog will appear. To identify which device is the LILYGO, unplug the LilyGo and plug it back in. The COM port that corresponds to the LilyGo will appear and disappear. Click the COM port that the Jade is plugged into.
    ![Connect to a serial port](../assets/connect_to_a_serial_port.jpeg)
 
-5. That's it a progress bar should show up and when it's finish your ready to set it up
+6. That's it! A progress bar should show up, and when it's finished, you're ready to set it up.
+
+7. The LilyGo T-Display should show a quick splash screen that says "Jade DIY", after which it should display the following screen:
+   ![alt text](<../assets/freshly flashed DIYJade.jpg>)
 
 ## Setting up the Jade Wallet
 
