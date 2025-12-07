@@ -394,7 +394,7 @@ Now that you have a live website, here are ways to expand your skills:
 * GitHub Pages documentation: [https://docs.github.com/en/pages](https://docs.github.com/en/pages)
 * GitHub Codespaces: [https://github.com/codespaces](https://github.com/codespaces)
 * Google Gemini: [https://gemini.google.com](https://gemini.google.com)
-* Free domain alternatives: [https://www.freenom.com](https://www.freenom.com) (limited availability)
+* Domain registrars: [Porkbun](https://porkbun.com), [Namecheap](https://namecheap.com), [Cloudflare](https://www.cloudflare.com/products/registrar/)
 * HTML basics: [https://developer.mozilla.org/en-US/docs/Learn/HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 
 ---
