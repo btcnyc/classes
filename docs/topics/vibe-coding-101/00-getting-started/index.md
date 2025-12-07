@@ -1,6 +1,8 @@
 > 📘 **Want the full curriculum?**  
 > Read the evergreen [Lesson](./lesson.md)
 
+![Vibe Coding workshop cover image](../assets/vibecode.png){ width="100%" }
+
 # 🧠 BTC NYC Class: Vibe Coding 101
 
 **📅 Date:** Thursday, December 18, 2025  

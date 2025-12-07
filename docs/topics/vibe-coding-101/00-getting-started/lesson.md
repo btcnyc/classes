@@ -8,6 +8,8 @@ duration: 90m
 > 📅 **Looking for date/time/location?**  
 > See the current [Event Page](./index.md)
 
+![Vibe Coding workshop cover image](../assets/vibecode.png){ width="100%" }
+
 # Vibe Coding 101 · Getting Started
 
 **Audience:** Beginner–intermediate
