@@ -193,7 +193,7 @@ When it presents changes:
 
 Now let's make it live:
 
-1. Ask the AI: "Please give me the terminal commands to commit and push these changes. I will paste them in myself."
+1. Ask the AI: "Please give me the terminal commands to commit and push these changes. Be direct and opinionated. I will paste them in myself."
 2. Click the **Insert into terminal** button (or copy the commands)
 3. Press **Enter** in the terminal to run them
 4. Go back to your repository on GitHub
