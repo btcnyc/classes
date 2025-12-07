@@ -72,6 +72,8 @@ GitHub Pages is a free service that lets you host a website directly from a GitH
 * Free hosting — no credit card required
 * Automatic updates — push code, site updates automatically
 
+**📍 Example:** See a [sample vibe-coded website](https://sat-engineer.github.io/github-launchpage-test/) built with this approach!
+
 ### Why Build a Website?
 
 Web development is the most flexible starting point for vibe coding because:
