@@ -218,6 +218,9 @@ Each time you want to make changes after committing:
 4. Describe your changes
 5. Preview → Keep → Commit → Push
 
+> **💡 Why create a new Issue each time?**  
+> Creating a new Issue and clicking "Code with Agent mode" gives you a fresh Codespace that has all your latest code. This avoids sync problems and ensures you're always working with the most up-to-date version of your site.
+
 **Example prompts to try:**
 
 * "Add a contact section with my email"
@@ -285,6 +288,28 @@ Different AI models have different strengths. Gemini is particularly good at cre
 | Preview won't open | Ask AI: "Can you open a preview of my site?" |
 | GitHub verification stuck | Check spam folder; try a different browser |
 | "Unable to read clipboard" | Click the "Insert into terminal" button instead of copying |
+| Codespace seems stuck or confused | Close it and create a new Issue to start fresh |
+| Changes not showing in Codespace | Your local code may be out of sync; create a new Issue to get a fresh Codespace |
+
+### Managing Your Codespaces
+
+GitHub gives you a limited number of free Codespaces. Here's how to manage them:
+
+**After each set of changes:**
+
+1. Once you've committed and pushed your changes, you can close the Codespace browser tab
+2. When you want to make more changes, create a **new Issue** and click **Code with Agent mode** again
+3. This gives you a fresh environment with all your latest code
+
+**If you see "Too many codespaces" error:**
+
+1. Go to [github.com/codespaces](https://github.com/codespaces)
+2. You'll see a list of all your active Codespaces
+3. Click the **...** menu next to old Codespaces
+4. Select **Delete** to remove ones you're no longer using
+5. Go back to your repository and try "Code with Agent mode" again
+
+> **⚠️ Important:** Don't worry about deleting Codespaces — your actual code is safely stored in your GitHub repository. Codespaces are just temporary workspaces for editing.
 
 ---
 
@@ -321,8 +346,10 @@ Now that you have a live website, here are ways to expand your skills:
 **Common friction points:**
 
 1. GitHub account creation — verification puzzles can be frustrating
-2. Understanding when to make a new Issue vs continuing in same codespace
+2. Understanding when to make a new Issue vs continuing in same Codespace
 3. Remembering to commit and push after making changes
+4. "Too many codespaces" error — walk students through [github.com/codespaces](https://github.com/codespaces) to delete old ones
+5. Codespace getting out of sync — always create a new Issue to get a fresh Codespace with latest code
 
 **Prompting tips to share:**
 
