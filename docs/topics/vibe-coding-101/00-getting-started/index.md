@@ -3,9 +3,9 @@
 
 # 🧠 BTC NYC Class: Vibe Coding 101
 
-**📅 Date:** <Month Day, Year>  
-**🕕 Time:** <Start Time>  
-**📍 Location:** <Venue>
+**📅 Date:** Thursday, December 18, 2025  
+**🕕 Time:** 6:30 PM - 8:30 PM  
+**📍 Location:** Fat Cat Fab Lab, 224 West 4th Street, New York, NY, 10014
 
 ---
 
