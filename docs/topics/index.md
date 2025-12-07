@@ -19,6 +19,12 @@ Build a DIY signing device and understand the security trade-offs behind open-so
 
 * [Beginner Build](bitcoin-hardware-wallet/00-beginners-hardware-wallet/lesson.md): Assemble hardware, flash open-source firmware, and test a wallet end-to-end.
 
+### 💻 Vibe Coding 101
+
+Learn the fundamentals of coding with a focus on practical, hands-on experience.
+
+* [Getting Started](vibe-coding-101/00-getting-started/lesson.md): Introduction to coding concepts and practical exercises.
+
 *(More topics coming soon — privacy, multisig, mining, and sovereignty!)*
 
 ---
